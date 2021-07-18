@@ -1,4 +1,5 @@
 # git-course
-Mi primer repositorio
-Este es un proyecto de prueba
-Por su atencion, gracias
+My name is Yuniel, i´m from Mexico and i´m a Developer in AI.
+
+
+
