@@ -8,7 +8,7 @@ import csv
 
 #from flatten_json import flatten 
 s3=boto3.resource('s3')
-target_bucket='outputpromodrone' # please update with the S3 bucket you will be sending files to 
+target_bucket='outputImages' # please update with the S3 bucket you will be sending files to 
 
 def lambda_handler(event, context):
     print(event)
@@ -109,7 +109,7 @@ def lambda_handler(event, context):
         write.writerow(fields)
         write.writerows(rows)
 
-    bucket="outputpromodrone"
+    bucket="outputImages"
     file_name = '/tmp/response.csv'
     object_name = '/Response/response.csv'
     #object_name = file_name
